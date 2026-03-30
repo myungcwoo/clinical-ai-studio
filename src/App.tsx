@@ -170,7 +170,7 @@ function App() {
 
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                   <a 
-                    href="http://localhost:5173" 
+                    href="https://simulate.clinicalai.studio" 
                     target="_blank" 
                     rel="noreferrer"
                     style={{
