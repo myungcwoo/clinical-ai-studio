@@ -1,4 +1,4 @@
-import { ArrowRight, BrainCircuit, Activity, Network, ShieldCheck, Cpu } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Network, ShieldCheck, FileText, Workflow, Lock, Stethoscope } from 'lucide-react';
 import './index.css';
 
 function App() {
@@ -53,7 +53,7 @@ function App() {
             textTransform: 'uppercase',
             fontSize: '0.85rem'
           }}>
-            <BrainCircuit size={16} /> Autonomous Intelligence Matrix
+            <BrainCircuit size={16} /> Comprehensive Clinical AI Suite
           </div>
           
           <h1 className="fade-in delay-1" style={{ 
@@ -76,8 +76,8 @@ function App() {
             margin: '0 auto 3rem auto',
             lineHeight: 1.6 
           }}>
-            Pioneering the boundary between Generative Artificial Intelligence and Biological Simulation. 
-            We transform raw conceptual pathways into deeply rigorous, explicitly computable Agent-Based Models executing highly-yield clinical logic.
+            Pioneering the boundary between Artificial Intelligence and daily clinical workflows. 
+            We transform raw conceptual models into rigorous, robust tools ranging from patient-level synthetic simulations to NLP-driven documentation and intelligent operational triage.
           </p>
 
           <div className="fade-in delay-3" style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -101,7 +101,7 @@ function App() {
                 transition: 'transform 0.2s'
               }}
             >
-              Explore AI Simulations <ArrowRight size={20} />
+              Explore Capabilities <ArrowRight size={20} />
             </button>
           </div>
         </div>
@@ -112,8 +112,8 @@ function App() {
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: '2.5rem', margin: '0 0 1rem 0' }}>The Neural Framework</h2>
-            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>Leveraging modern algorithmic pathways to solve complex epidemiological scaling.</p>
+            <h2 style={{ fontSize: '2.5rem', margin: '0 0 1rem 0' }}>Core Capabilities</h2>
+            <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>Leveraging modern algorithmic pathways to enhance and support full-spectrum clinical operations.</p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
@@ -121,24 +121,24 @@ function App() {
               <div style={{ width: '50px', height: '50px', background: 'rgba(59, 130, 246, 0.1)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#60a5fa', marginBottom: '1.5rem' }}>
                 <Network size={28} />
               </div>
-              <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>Generative Agent Networks</h3>
-              <p style={{ color: 'var(--text-muted)' }}>Hundreds of purely autonomous mathematical agents actively communicate, dynamically deploying explicit LLM payloads to optimize global survival configurations organically.</p>
+              <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>Digital Patient Simulation</h3>
+              <p style={{ color: 'var(--text-muted)' }}>Predictive agent-based modeling mimicking localized population health, leveraging generative LLMs to explore synthetic A/B trials and epidemiological scaling dynamics.</p>
             </div>
             
             <div className="glass-panel" style={{ padding: '2rem', transition: 'transform 0.3s' }}>
               <div style={{ width: '50px', height: '50px', background: 'rgba(16, 185, 129, 0.1)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#34d399', marginBottom: '1.5rem' }}>
-                <Activity size={28} />
+                <FileText size={28} />
               </div>
-              <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>SDoH Biological Decay</h3>
-              <p style={{ color: 'var(--text-muted)' }}>Highly constrained Actuarial Hazard logic explicitly sourced strictly from CDC & AHA statistical matrices enforcing brutal, ultra-realistic predictive pathogenesis.</p>
+              <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>Intelligent Documentation</h3>
+              <p style={{ color: 'var(--text-muted)' }}>NLP-powered engines deployed to process unstructured clinical notes, automate medical coding workflows, and instantly synthesize comprehensive chart summaries.</p>
             </div>
 
             <div className="glass-panel" style={{ padding: '2rem', transition: 'transform 0.3s' }}>
               <div style={{ width: '50px', height: '50px', background: 'rgba(245, 158, 11, 0.1)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fcd34d', marginBottom: '1.5rem' }}>
-                <Cpu size={28} />
+                <Workflow size={28} />
               </div>
-              <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>Decoupled Synthetic A/B Testing</h3>
-              <p style={{ color: 'var(--text-muted)' }}>Selectively filter isolated subsets and directly compare strictly unadulterated Control trajectories vs organically network-Optimized intervention arrays dynamically side-by-side.</p>
+              <h3 style={{ fontSize: '1.3rem', marginBottom: '1rem' }}>Workflow Optimization</h3>
+              <p style={{ color: 'var(--text-muted)' }}>AI-driven triage routing, predictive resource allocation, and standardized operational pipelines designed to reduce provider burnout and streamline patient throughput.</p>
             </div>
           </div>
         </div>
@@ -151,44 +151,110 @@ function App() {
           <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }}>
             <h2 style={{ fontSize: '2.5rem', margin: 0 }}>Active Deployments</h2>
             <div style={{ background: 'rgba(16, 185, 129, 0.1)', color: '#34d399', padding: '0.4rem 1rem', borderRadius: '100px', fontSize: '0.9rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <span style={{ width: '8px', height: '8px', background: '#34d399', borderRadius: '50%', display: 'inline-block' }} /> 1 Engine Live
+              <span style={{ width: '8px', height: '8px', background: '#34d399', borderRadius: '50%', display: 'inline-block' }} /> 3 Systems Online
             </div>
           </div>
 
-          <div className="glass-panel" style={{ padding: '3rem', borderLeft: '4px solid var(--accent-purple)', position: 'relative', overflow: 'hidden' }}>
-            <div style={{ position: 'relative', zIndex: 10 }}>
-              <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '1rem' }}>
-                <h3 style={{ fontSize: '2rem', margin: 0 }}>Medical Digital Twins Sandbox</h3>
-                <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '4px', fontSize: '0.8rem', color: '#c4b5fd' }}>v2.0 ABM Instance</span>
-              </div>
-              
-              <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '2.5rem' }}>
-                A massive 100-Agent simulation tracking exhaustive epidemiological Social Determinants of Health. Agents organically ingest LLM (GPT-4 / Claude / Gemini) payloads natively through simulated network propagation, allowing custom injected "Patient Zeros" the raw statistical upper hand in isolated A/B comparative trials.
-              </p>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2rem' }}>
+            {/* Simulation Project */}
+            <div className="glass-panel" style={{ padding: '3rem', borderLeft: '4px solid var(--accent-purple)', position: 'relative', overflow: 'hidden' }}>
+              <div style={{ position: 'relative', zIndex: 10 }}>
+                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '1rem' }}>
+                  <h3 style={{ fontSize: '2rem', margin: 0 }}>Medical Digital Twins Sandbox</h3>
+                  <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '4px', fontSize: '0.8rem', color: '#c4b5fd' }}>v2.0 ABM Instance</span>
+                </div>
+                
+                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '2.5rem' }}>
+                  A massive simulation tracking exhaustive epidemiological Social Determinants of Health. Agents organically ingest LLM payloads natively through simulated network propagation, allowing custom injected "Patient Zeros" the raw statistical upper hand in isolated A/B comparative trials.
+                </p>
 
-              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                <a 
-                  href="http://localhost:5173" 
-                  target="_blank" 
-                  rel="noreferrer"
-                  style={{
-                    display: 'flex', alignItems: 'center', gap: '0.6rem',
-                    textDecoration: 'none', background: 'var(--text-main)', color: 'var(--bg-primary)',
-                    padding: '1rem 2rem', borderRadius: '8px', fontWeight: 'bold',
-                    transition: 'transform 0.2s',
-                    boxShadow: '0 4px 15px rgba(255,255,255,0.2)'
-                  }}
-                  onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
-                  onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
-                >
-                  Launch Dashboard <ArrowRight size={18} />
-                </a>
+                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                  <a 
+                    href="http://localhost:5173" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    style={{
+                      display: 'flex', alignItems: 'center', gap: '0.6rem',
+                      textDecoration: 'none', background: 'var(--text-main)', color: 'var(--bg-primary)',
+                      padding: '1rem 2rem', borderRadius: '8px', fontWeight: 'bold',
+                      transition: 'transform 0.2s',
+                      boxShadow: '0 4px 15px rgba(255,255,255,0.2)'
+                    }}
+                    onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
+                    onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+                  >
+                    Launch Simulation <ArrowRight size={18} />
+                  </a>
+                </div>
+              </div>
+
+              <div style={{ position: 'absolute', right: '-5%', bottom: '-20%', opacity: 0.05, transform: 'scale(1.5)', pointerEvents: 'none' }}>
+                <ShieldCheck size={400} />
               </div>
             </div>
 
-            {/* Faint background architectural graphic mapping purely aesthetic depth */}
-            <div style={{ position: 'absolute', right: '-5%', bottom: '-20%', opacity: 0.05, transform: 'scale(1.5)', pointerEvents: 'none' }}>
-              <ShieldCheck size={400} />
+            {/* NLP Docs Project Placeholder */}
+            <div className="glass-panel" style={{ padding: '3rem', borderLeft: '4px solid var(--accent-blue)', position: 'relative', overflow: 'hidden' }}>
+              <div style={{ position: 'relative', zIndex: 10 }}>
+                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '1rem' }}>
+                  <h3 style={{ fontSize: '2rem', margin: 0 }}>Intelligent Clinical Notes</h3>
+                  <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '4px', fontSize: '0.8rem', color: '#60a5fa' }}>v1.0 Processing Core</span>
+                </div>
+                
+                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '2.5rem' }}>
+                  Advanced Natural Language Processing infrastructure. Ingests raw voice dictations and unstructured provider notes to automatically structure diagnostic codes, isolate crucial action items, and synthesize clean, legible chart summaries for review.
+                </p>
+
+                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                  <button 
+                    disabled
+                    style={{
+                      display: 'flex', alignItems: 'center', gap: '0.6rem',
+                      background: 'rgba(255,255,255,0.1)', color: 'var(--text-muted)',
+                      padding: '1rem 2rem', borderRadius: '8px', fontWeight: 'bold',
+                      border: '1px solid var(--glass-border)',
+                      cursor: 'not-allowed'
+                    }}
+                  >
+                    <Lock size={18} /> Portal Coming Soon
+                  </button>
+                </div>
+              </div>
+              <div style={{ position: 'absolute', right: '-2%', bottom: '-10%', opacity: 0.05, transform: 'scale(1.5)', pointerEvents: 'none' }}>
+                <FileText size={400} />
+              </div>
+            </div>
+
+            {/* Workflow Optimization Placeholder */}
+            <div className="glass-panel" style={{ padding: '3rem', borderLeft: '4px solid var(--accent-emerald)', position: 'relative', overflow: 'hidden' }}>
+              <div style={{ position: 'relative', zIndex: 10 }}>
+                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '1rem' }}>
+                  <h3 style={{ fontSize: '2rem', margin: 0 }}>Predictive Triage Orchestrator</h3>
+                  <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '4px', fontSize: '0.8rem', color: '#34d399' }}>v1.0 Workflow Beta</span>
+                </div>
+                
+                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '2.5rem' }}>
+                  A sophisticated queuing and resource allocation system. By cross-referencing incoming patient acuity metrics with live facility capacity, the AI intelligently proposes routing workflows to drastically cut wait times and standardize critical care pathways.
+                </p>
+
+                <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                  <button 
+                    disabled
+                    style={{
+                      display: 'flex', alignItems: 'center', gap: '0.6rem',
+                      background: 'rgba(255,255,255,0.1)', color: 'var(--text-muted)',
+                      padding: '1rem 2rem', borderRadius: '8px', fontWeight: 'bold',
+                      border: '1px solid var(--glass-border)',
+                      cursor: 'not-allowed'
+                    }}
+                  >
+                    <Lock size={18} /> Integration Pending
+                  </button>
+                </div>
+              </div>
+              <div style={{ position: 'absolute', right: '-5%', bottom: '-20%', opacity: 0.05, transform: 'scale(1.5)', pointerEvents: 'none' }}>
+                <Stethoscope size={400} />
+              </div>
             </div>
           </div>
         </div>
@@ -201,10 +267,10 @@ function App() {
             <BrainCircuit size={24} /> Clinical AI Studio
           </div>
           <p style={{ maxWidth: '800px', margin: '0 auto 1rem auto' }}>
-            <strong>LEGAL DISCLOSURE:</strong> All products linked or hosted securely through this portfolio are explicitly strictly experimental mathematical frameworks structurally built for entertainment, generic research modeling, and engineering demonstrations only. 
+            <strong>LEGAL DISCLOSURE:</strong> All projects, tools, and interfaces hosted through this portfolio are experimental conceptual prototypes built for engineering demonstrations, research, and entertainment only. They are not intended for production usage in clinical settings.
           </p>
           <p>
-            This portal and its underlying Digital Twins are completely <strong>NOT HIPAA COMPLIANT</strong>. Real User PHI must NEVER be injected. Do not utilize ABM predictions for actual localized diagnostic execution or prescriptive clinical intervention mappings. Always formally consult board certified physicians.
+            The tools in this suite are completely <strong>NOT HIPAA COMPLIANT</strong>. Real User PHI must NEVER be injected. Do not utilize generated summaries, diagnostic codes, or triage suggestions for actual patient care. Always formally consult board-certified physicians.
           </p>
           <div style={{ marginTop: '2rem', paddingTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
             © {new Date().getFullYear()} Clinical AI Studio Portfolio.
