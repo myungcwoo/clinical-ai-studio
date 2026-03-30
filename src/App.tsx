@@ -56,6 +56,20 @@ function App() {
             <BrainCircuit size={16} /> Comprehensive Clinical AI Suite
           </div>
           
+          <div className="fade-in delay-1" style={{ marginBottom: '1.5rem' }}>
+            <img 
+              src="/logo.png" 
+              alt="Clinical AI Studio Logo" 
+              style={{ 
+                height: '120px', 
+                width: '120px', 
+                borderRadius: '24px',
+                boxShadow: '0 10px 30px rgba(139, 92, 246, 0.3)',
+                objectFit: 'cover'
+              }} 
+            />
+          </div>
+          
           <h1 className="fade-in delay-1" style={{ 
             fontSize: 'clamp(3rem, 6vw, 5rem)', 
             fontWeight: '900', 
