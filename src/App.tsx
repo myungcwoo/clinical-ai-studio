@@ -175,12 +175,23 @@ function App() {
               <div style={{ position: 'relative', zIndex: 10 }}>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '1rem' }}>
                   <h3 style={{ fontSize: '2rem', margin: 0 }}>Medical Digital Twins Sandbox</h3>
-                  <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '4px', fontSize: '0.8rem', color: '#c4b5fd' }}>v2.0 ABM Instance</span>
+                  <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '4px', fontSize: '0.8rem', color: '#c4b5fd' }}>v2.5 ABM Instance</span>
                 </div>
                 
-                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '2.5rem' }}>
-                  A massive simulation tracking exhaustive epidemiological Social Determinants of Health. Agents organically ingest LLM payloads natively through simulated network propagation, allowing custom injected "Patient Zeros" the raw statistical upper hand in isolated A/B comparative trials.
+                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                  A massive simulation tracking exhaustive epidemiological Social Determinants of Health. Agents seamlessly ingest generative LLM protocols locally through network propagation, enabling entirely isolated A/B bifurcated trials on custom injected clones.
                 </p>
+                
+                <div style={{ background: 'rgba(0,0,0,0.3)', padding: '1.5rem', borderRadius: '8px', borderLeft: '3px solid #f472b6', marginBottom: '2.5rem', maxWidth: '700px' }}>
+                  <h4 style={{ color: '#f8fafc', margin: '0 0 0.8rem 0', fontSize: '1.1rem' }}>🔥 v2.5 Major Updates:</h4>
+                  <ul style={{ color: '#cbd5e1', fontSize: '1.0rem', margin: 0, paddingLeft: '1.2rem', lineHeight: 1.6, display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+                    <li><strong>"Simulate Me" Consumer Wizard:</strong> Intuitively translates standard lifestyle sliders into mathematical medical proxies for immediate trial launch.</li>
+                    <li><strong>Isolated Clone Fast-Forwarding:</strong> Independent synthetic bifurcations can be actively progressed chronologically apart from global cycles.</li>
+                    <li><strong>Gompertz Mortality Rebalance:</strong> Biological ceilings dynamically mapped against exponential real-world decay curves to enforce epidemiological hard limits.</li>
+                    <li><strong>Pathology Compounding:</strong> Rebuilt risk engine forces aggressive, non-linear disease acceleration via localized comorbidity.</li>
+                    <li><strong>PyTorch Training Hookups:</strong> Decoupled ingestion logic explicitly maps missingness-aware timeline payloads to external continuous-time Neural ODEs.</li>
+                  </ul>
+                </div>
 
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                   <a 
