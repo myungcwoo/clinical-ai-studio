@@ -1,7 +1,8 @@
 {
   "name": "clinical-ai-studio",
+  "description": "Clinical AI Studio: A React-based Agent-Based Modeling system combining WebAssembly Edge Inference and Generative AI for digital patient cohort tracking.",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
