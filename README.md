@@ -6,7 +6,7 @@ Currently, this repository serves as the React-based central hub routing users t
 
 ## Active Core Routing
 
-- **Medical Digital Twins Sandbox (v3.0 Edge Inference):** A massive clinical AI environment simulating comprehensive epidemiological tracking alongside Social Determinants of Health. Discarding static rules, 100+ parallel agents process native Deep Learning inference calculations in the browser via WebAssembly (ONNX) to accurately map mortality risks, and test novel biomedical protocols dynamically harvested via real-time LLM networks and NIH PubMed Python endpoints.
+- **Medical Digital Twins Sandbox (v4.0 High-Performance Architecture):** A massive clinical AI environment simulating comprehensive epidemiological tracking alongside Social Determinants of Health. By orchestrating deterministic mathematical simulations completely off the main thread using dedicated Web Workers, 1,000+ parallel agents process natively at 60 FPS. The system runs complex Deep Learning inference calculations via WebAssembly (ONNX) to map mortality risks and test novel biomedical protocols dynamically harvested via real-time LLM networks and NIH PubMed Python endpoints—all visualized through a hyper-modular React + Zustand UI.
 - **Intelligent Clinical Notes (v1.0 Processing Core):** Advanced Natural Language Processing infrastructure. Ingests raw voice dictations and unstructured provider notes to automatically structure diagnostic codes, isolate crucial action items, and synthesize clean, legible chart summaries for review. *(Under active development)*.
 
 ## 🚀 QuickStart
