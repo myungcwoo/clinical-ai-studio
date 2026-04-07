@@ -83,6 +83,12 @@ function App() {
             Clinical AI Studio
           </h1>
           
+          <div className="fade-in delay-2" style={{ background: 'rgba(239, 68, 68, 0.1)', border: '1px solid rgba(239, 68, 68, 0.3)', padding: '0.8rem 1.5rem', borderRadius: '8px', maxWidth: '800px', margin: '0 auto 2rem auto' }}>
+            <p style={{ color: '#fca5a5', margin: 0, fontSize: '0.9rem', fontWeight: '500' }}>
+               EXPLORATORY SIMULATION ONLY: This environment leverages AI to power developmental paradigms. It is NOT a diagnostic tool and does NOT provide real-world clinical recommendations for people to take action on.
+            </p>
+          </div>
+
           <p className="fade-in delay-2" style={{ 
             fontSize: 'clamp(1.1rem, 2vw, 1.4rem)', 
             color: 'var(--text-muted)', 
@@ -90,8 +96,8 @@ function App() {
             margin: '0 auto 3rem auto',
             lineHeight: 1.6 
           }}>
-            Pioneering the boundary between Artificial Intelligence and daily clinical workflows. 
-            We transform raw conceptual models into rigorous, robust tools ranging from patient-level synthetic simulations to NLP-driven documentation and intelligent operational triage.
+            Pioneering the boundary between Artificial Intelligence and theoretical clinical workflows. 
+            We transform raw conceptual models into rigorous, explorative simulations ranging from synthetic patient trajectories to NLP-driven documentation architectures.
           </p>
 
           <div className="fade-in delay-3" style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>

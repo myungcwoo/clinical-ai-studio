@@ -1,6 +1,9 @@
 # 🧠 Clinical AI Studio
 
-The universal landing page and foundational suite router for medical-grade artificial intelligence deployments. 
+The universal landing page and foundational suite router for explorative medical-grade artificial intelligence deployments. 
+
+> [!WARNING]  
+> **Strictly Exploratory:** Clinical AI Studio relies on AI to power conceptual clinical development and architectural scaling. Both the overarching interface and the underlying tools are pure simulations. They are **not diagnostic tools, and absolutely do not provide recommendations for people to take action on.**
 
 Currently, this repository serves as the React-based central hub routing users to live architectural deployments, including the flagship **Medical Twins Sandbox**.
 
