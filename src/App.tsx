@@ -278,7 +278,7 @@ function App() {
 
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                   <a 
-                    href="http://localhost:3000/knowledge" 
+                    href="https://knowledge.clinicalai.studio/knowledge" 
                     target="_blank" 
                     rel="noreferrer"
                     style={{
@@ -295,7 +295,7 @@ function App() {
                   </a>
 
                   <a 
-                    href="http://localhost:3000/themes" 
+                    href="https://knowledge.clinicalai.studio/themes" 
                     target="_blank" 
                     rel="noreferrer"
                     style={{
