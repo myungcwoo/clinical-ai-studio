@@ -1,4 +1,4 @@
-import { ArrowRight, BrainCircuit, Network, ShieldCheck, FileText, Workflow, Lock, Stethoscope, Database } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Network, ShieldCheck, FileText, Workflow, Lock, Database } from 'lucide-react';
 import './index.css';
 
 function App() {
