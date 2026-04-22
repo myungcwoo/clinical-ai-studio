@@ -43,8 +43,14 @@ body {
 
 @keyframes pulseGlow {
   0% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.2); }
-  50% { box-shadow: 0 0 40px rgba(139, 92, 246, 0.5); }
+  50% { box-shadow: 0 0 40px rgba(139, 92, 246, 0.6), 0 0 80px rgba(139, 92, 246, 0.3); }
   100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.2); }
+}
+
+@keyframes floatElement {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
 }
 
 .fade-in {

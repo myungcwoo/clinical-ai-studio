@@ -1,4 +1,4 @@
-import { ArrowRight, BrainCircuit, Network, ShieldCheck, FileText, Workflow, Lock, Stethoscope } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Network, ShieldCheck, FileText, Workflow, Lock, Stethoscope, Database } from 'lucide-react';
 import './index.css';
 
 function App() {
@@ -170,8 +170,8 @@ function App() {
           
           <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', marginBottom: '3rem', flexWrap: 'wrap', gap: '1rem' }}>
             <h2 style={{ fontSize: '2.5rem', margin: 0 }}>Active Deployments</h2>
-            <div style={{ background: 'rgba(16, 185, 129, 0.1)', color: '#34d399', padding: '0.4rem 1rem', borderRadius: '100px', fontSize: '0.9rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <span style={{ width: '8px', height: '8px', background: '#34d399', borderRadius: '50%', display: 'inline-block' }} /> 3 Systems Online
+            <div style={{ background: 'rgba(16, 185, 129, 0.1)', color: '#34d399', padding: '0.4rem 1rem', borderRadius: '100px', fontSize: '0.9rem', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '0.5rem', boxShadow: '0 0 15px rgba(16, 185, 129, 0.2)' }}>
+              <span style={{ width: '8px', height: '8px', background: '#34d399', borderRadius: '50%', display: 'inline-block', boxShadow: '0 0 8px #34d399' }} /> 2 Systems Online
             </div>
           </div>
 
@@ -255,35 +255,65 @@ function App() {
               </div>
             </div>
 
-            {/* Workflow Optimization Placeholder */}
-            <div className="glass-panel" style={{ padding: '3rem', borderLeft: '4px solid var(--accent-emerald)', position: 'relative', overflow: 'hidden' }}>
+            {/* Massive Clinical Knowledge Engine Backbone */}
+            <div className="glass-panel" style={{ padding: '3rem', borderLeft: '4px solid #10b981', position: 'relative', overflow: 'hidden', animation: 'floatElement 6s ease-in-out infinite' }}>
               <div style={{ position: 'relative', zIndex: 10 }}>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '1rem' }}>
-                  <h3 style={{ fontSize: '2rem', margin: 0 }}>Predictive Triage Orchestrator</h3>
-                  <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.1)', borderRadius: '4px', fontSize: '0.8rem', color: '#34d399' }}>v1.0 Workflow Beta</span>
+                  <h3 style={{ fontSize: '2rem', margin: 0, textShadow: '0 2px 10px rgba(16, 185, 129, 0.4)' }}>Clinical Knowledge Discovery Engine</h3>
+                  <span style={{ padding: '0.3rem 0.8rem', background: 'rgba(16, 185, 129, 0.15)', borderRadius: '4px', fontSize: '0.8rem', color: '#34d399', fontWeight: 'bold', border: '1px solid rgba(16, 185, 129, 0.3)' }}>v1.0 Backbone Core</span>
                 </div>
                 
-                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '2.5rem' }}>
-                  A sophisticated queuing and resource allocation system. By cross-referencing incoming patient acuity metrics with live facility capacity, the AI intelligently proposes routing workflows to drastically cut wait times and standardize critical care pathways.
+                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '700px', marginBottom: '1.5rem', lineHeight: 1.6 }}>
+                  The foundational REST Microservice and Next.js frontend empowering deep hypothesis generation. Driven by an autonomous Python data harvesting pipeline, this engine extracts, vectorizes, and maps tens of thousands of biomedical literature abstracts directly into a persistent ChromaDB instance—completely eliminating manual PubMed searches.
                 </p>
 
+                <div style={{ background: 'rgba(0,0,0,0.3)', padding: '1.5rem', borderRadius: '8px', borderLeft: '3px solid #34d399', marginBottom: '2.5rem', maxWidth: '750px' }}>
+                  <h4 style={{ color: '#f8fafc', margin: '0 0 0.8rem 0', fontSize: '1.1rem' }}>⚡ Backbone Mechanics:</h4>
+                  <ul style={{ color: '#cbd5e1', fontSize: '1.0rem', margin: 0, paddingLeft: '1.2rem', lineHeight: 1.6, display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+                    <li><strong>LLM Semantic Query Expansion:</strong> Integrates Gemini 2.5 Flash to automatically interpret complex Boolean combinatorial arrays (e.g. <code>"diabetes and cardiology"</code>), projecting your queries across mapped synonyms explicitly before querying the database.</li>
+                    <li><strong>WebGL Generative Biological Graphs:</strong> A flawless `react-force-graph-2d` canvas actively tracking 3000+ biomedical relationships. Automatically clusters Intervention, Disease, and Gene/Target categorizations via degree-centrality heuristics.</li>
+                    <li><strong>Automated Hypothesis Generation:</strong> Deep Multi-Hop graph traversals identifying isolated <code>DRIVEN_BY_TARGET</code> edge relations, explicitly proposing drug repurposing paths globally across clinical datasets.</li>
+                  </ul>
+                </div>
+
                 <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                  <button 
-                    disabled
+                  <a 
+                    href="http://localhost:3000/knowledge" 
+                    target="_blank" 
+                    rel="noreferrer"
                     style={{
                       display: 'flex', alignItems: 'center', gap: '0.6rem',
-                      background: 'rgba(255,255,255,0.1)', color: 'var(--text-muted)',
+                      textDecoration: 'none', background: 'linear-gradient(135deg, #10b981, #059669)', color: '#fff',
                       padding: '1rem 2rem', borderRadius: '8px', fontWeight: 'bold',
-                      border: '1px solid var(--glass-border)',
-                      cursor: 'not-allowed'
+                      transition: 'transform 0.2s, box-shadow 0.2s',
+                      boxShadow: '0 4px 15px rgba(16, 185, 129, 0.4)'
                     }}
+                    onMouseOver={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 6px 20px rgba(16, 185, 129, 0.6)'; }}
+                    onMouseOut={(e) => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 15px rgba(16, 185, 129, 0.4)'; }}
                   >
-                    <Lock size={18} /> Integration Pending
-                  </button>
+                    <Network size={18} /> Deep Ontology Visualizer
+                  </a>
+
+                  <a 
+                    href="http://localhost:3000/themes" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    style={{
+                      display: 'flex', alignItems: 'center', gap: '0.6rem',
+                      textDecoration: 'none', background: 'rgba(16, 185, 129, 0.1)', color: '#34d399',
+                      padding: '1rem 2rem', borderRadius: '8px', fontWeight: 'bold',
+                      border: '1px solid rgba(16, 185, 129, 0.3)',
+                      transition: 'all 0.2s',
+                    }}
+                    onMouseOver={(e) => { e.currentTarget.style.background = 'rgba(16, 185, 129, 0.2)'; }}
+                    onMouseOut={(e) => { e.currentTarget.style.background = 'rgba(16, 185, 129, 0.1)'; }}
+                  >
+                    <FileText size={18} /> Launch Theme Explorer
+                  </a>
                 </div>
               </div>
-              <div style={{ position: 'absolute', right: '-5%', bottom: '-20%', opacity: 0.05, transform: 'scale(1.5)', pointerEvents: 'none' }}>
-                <Stethoscope size={400} />
+              <div style={{ position: 'absolute', right: '-10%', bottom: '-20%', opacity: 0.03, transform: 'scale(1.5)', pointerEvents: 'none' }}>
+                <Database size={500} />
               </div>
             </div>
           </div>
